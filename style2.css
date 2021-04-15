@@ -1,0 +1,157 @@
+body
+{
+	background-color: #DFDBE5;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+	margin-left: 10px;
+	max-width: 1200px;
+}
+#page
+{
+	border-left: 3px solid red;
+	margin-left: 10px;
+}
+h1
+{
+	border: 5px red solid;
+	border-radius: 40px;
+	background-color: #FFFFFF;
+	text-shadow: 15px 15px 20px red;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	max-width: 700px;
+}
+h2 
+{
+	border: 3px solid black;
+	color: red;
+	box-shadow: 10px 10px 6px black;
+	padding: 12px;
+	margin: auto;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: green;
+}
+a:focus
+{
+	background-color: black;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 15px;
+	margin-right: 30px;
+}
+#adresse
+{
+	font-size: 1.8em;
+	flex-grow: 1;
+	margin-right: -30px;
+}
+#entete
+{
+	font-size: 1.8em;
+	flex-grow: 3;
+	margin-left: 0px;
+}
+#photocv
+{
+	margin-left: 50px;
+	margin-right: -75px;
+	flex-grow: 1;
+}
+section
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	align-items: stretch;
+}
+#experience
+{
+	flex-grow: 3;
+}
+#experience ul
+{
+
+}
+#liste_an
+{
+	flex-grow: 1;
+	max-width: 750px;
+}
+
+#liste_exp li
+{
+	list-style-type: none;
+}
+#competences
+{
+	flex-grow: 1;
+}
+#competences ul
+{
+	font-size: 1.3em;
+	list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+#formation
+{
+	flex-grow: 1;
+}
+#formation ul
+{
+	font-size: 1.2em;
+	margin-right: -50px;
+	list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+#formation em
+{
+	color: red;
+	font-size: 2em;
+}
+footer
+{
+	text-align: center;
+}
+footer a
+{
+	font-size: 2.2em;
+}
+
+@media all and (max-width: 900px)
+{
+	#page
+	{
+		border: none;
+		display: block;
+		width: auto
+	}
+	section
+	{
+		flex-flow: column wrap;
+	}
+	#adresse
+	{
+		font-size: 1.2em;
+	}
+	h1
+	{
+		font-size: 1.5em;
+		border: none;
+		text-shadow: none;
+		background: none;
+	}
+	h2
+	{
+		font-size: 0.9em;
+		padding: 3px;
+		width: 50%;
+
+	}
+
+}
